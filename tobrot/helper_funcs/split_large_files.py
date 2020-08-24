@@ -32,7 +32,7 @@ async def split_large_files(input_file):
     # create download directory, if not exist
     if not os.path.isdir(new_working_directory):
         os.makedirs(new_working_directory)
-    # if input_file.upper().endswith(("MKV", "MP4", "WEBM", "MP3", "M4A", "FLAC", "WAV")):
+    # if input_file.upper().endswith(("MKV", "MP4", "WEBM", "TS", "MP3", "M4A", "FLAC", "WAV")):
     """The below logic is DERPed, so removing temporarily
     """
     if False:
